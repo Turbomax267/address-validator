@@ -15,5 +15,4 @@ class TestValidator(unittest.TestCase):
     def test_not_a_string(self):
         self.assertFalse(is_valid_address(12345))
 if __name__ == "__main__":
-
     unittest.main()
